@@ -1,0 +1,55 @@
+body::-webkit-scrollbar {
+    width: .3em;
+    display: none;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: slategray;
+    outline: 1px solid #ddd;
+    display: none;
+}
+
+header {
+    text-align: center;
+    padding: 150px 0 70px 0;
+}
+
+#draw,
+#draw_again {
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+}
+
+#draw_again {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+section.home {
+    height: 100vh;
+}
+
+section.curves {
+    padding: 20px 0 40px 0;
+    display: none;
+}
+
+#curve_data {
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    padding: 15px 0;
+}
+
+#curve_data p {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 0;
+}
